@@ -1,0 +1,22 @@
+/* src/App.css */
+.app-container {
+  height: 100vh;
+}
+
+.user-list-container {
+  overflow-y: auto;
+}
+
+.user-details-container {
+  padding: 20px;
+}
+
+.hide::-webkit-scrollbar {
+  display: none;
+  color: aqua;
+}
+
+.hide{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
